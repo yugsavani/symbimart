@@ -14,7 +14,7 @@ const SymbiEat = (props) => {
                     </div>
                     <ul className="menu-items">
                         <li style={{ marginTop: "12px" }}><Link to="/"><a style={{fontSize: "18px"}}>Home</a></Link></li>
-                        <li style={{ marginTop: "12px" }}><Link to="#food-menu"><a style={{fontSize: "18px"}}>Menu</a></Link></li>
+                        <li style={{ marginTop: "12px" }}><a href="#food-menu"><a style={{fontSize: "18px"}}>Menu</a></a></li>
                         <li><Link to="/cart"><img style={{ height: "40px", marginTop:"7px" }} src="../image/cart1.png" alt='logo'/></Link></li>
                     </ul>
                     <h2 className="logo flex-left"><a style={{fontWeight: "bold", fontSize: "35px"}}>SYMBI/EAT</a></h2>
@@ -26,7 +26,7 @@ const SymbiEat = (props) => {
                 <div className="showcase-container">
                     <h1 className="main-title" id="home">Eat Right Food</h1>
                     <p>Eat Healty, it is good for our health.</p>
-                    <Link to="#food-menu" className="btn btn-primary">Menu</Link>
+                    <a href="#food-menu" className="btn btn-primary">Menu</a>
                 </div>
             </section>
             <section id="food">
@@ -37,8 +37,9 @@ const SymbiEat = (props) => {
                             <img style={{height: "300px", width:"350px"}} src="https://i.postimg.cc/yxThVPXk/food1.jpg" alt="error" />
                             <div className="img-content">
                                 <h3>FRUIT</h3>
-                                <Link to="https://en.wikipedia.org/wiki/Fruit" className="btn btn-primary" target="blank">learn
-                                    more</Link>
+                                <p onClick={() => window.location.href = "https://en.wikipedia.org/wiki/Fruit"} className="btn btn-primary" target="_blank">learn
+                                    more</p>
+                                     {/* eslint-disable-next-line*/}
                             </div>
                         </div>
                     </div>
@@ -47,8 +48,9 @@ const SymbiEat = (props) => {
                             <img style={{height: "300px", width:"350px"}} src="https://i.postimg.cc/Nffm6Rkk/food2.jpg" alt="error" />
                             <div className="img-content">
                                 <h3>VEGETABLE</h3>
-                                <Link to="https://en.wikipedia.org/wiki/Vegetable" className="btn btn-primary" target="blank">learn
-                                    more</Link>
+                                <p onClick={() => window.location.href ="https://en.wikipedia.org/wiki/Vegetable/"} className="btn btn-primary" target="blank">learn
+                                    more</p>
+                                    {/* eslint-disable-next-line*/}
                             </div>
                         </div>
                     </div>
@@ -57,8 +59,9 @@ const SymbiEat = (props) => {
                             <img style={{height: "300px", width:"350px"}} src="https://i.postimg.cc/76ZwsPsd/food3.jpg" alt="error" />
                             <div className="img-content">
                                 <h3>GRAIN</h3>
-                                <Link to="https://en.wikipedia.org/wiki/Grain" className="btn btn-primary" target="blank">learn
-                                    more</Link>
+                                <p onClick={() => window.location.href ="https://en.wikipedia.org/wiki/Grain/"} className="btn btn-primary" target="blank">learn
+                                    more</p>
+                                     {/* eslint-disable-next-line*/}
                             </div>
                         </div>
                     </div>

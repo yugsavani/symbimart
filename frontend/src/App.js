@@ -14,6 +14,7 @@ function App() {
   console.log(cartItems)
   // let cartItems = [];
   const addItems = (name, image, price) => {
+    console.log("working");
     const item = {
       name: name,
       image: image,

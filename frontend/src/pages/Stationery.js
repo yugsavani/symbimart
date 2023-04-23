@@ -13,12 +13,12 @@ const Stationery = (props) => {
                         <span className="line line3"></span>
                     </div>
                     <ul className="menu-items">
-                        <li style={{ marginTop: "6px" }}><Link to="/"><a style={{fontSize: "20px"}}>Home</a></Link></li>
-                        <li style={{ marginTop: "6px" }}><Link to="#food-menu"><a style={{fontSize: "20px"}}>Menu</a></Link></li>
+                        <li style={{ marginTop: "6px" }}><a href="/"><a style={{fontSize: "20px"}}>Home</a></a></li>
+                        <li style={{ marginTop: "6px" }}><a href="#food-menu"><a style={{fontSize: "20px"}}>Menu</a></a></li>
                         <li><Link to="/cart"><img style={{ height: "40px" }} src="image/cart1.png" alt='l'/></Link></li>
                     </ul>
                     <h2 className="logo flex-left"><a style={{fontWeight: "bold", fontSize:"35px"}}>SYMBI/STATIONERY</a></h2>
-                    <h1 className="brand" style={{ paddingBottom: "10px" }}><Link to="/"><img alt='l' style={{ height: "40px" }} src="image/symbimart.png" /></Link>
+                    <h1 className="brand" style={{ paddingBottom: "10px" }}><a href="/"><img alt='l' style={{ height: "40px" }} src="image/symbimart.png" /></a>
                     </h1>
                 </div>
             </nav>
@@ -26,7 +26,7 @@ const Stationery = (props) => {
                 <div className="showcase-container">
                     <h1 className="main-title" id="home">Find good Stationery from us</h1>
                     <p>Best quality items available at our store</p>
-                    <Link to="#food-menu" className="btn btn-primary">Menu</Link>
+                    <a href="#food-menu" className="btn btn-primary">Menu</a>
                 </div>
             </section>
 
@@ -39,8 +39,8 @@ const Stationery = (props) => {
                             <img style={{height: "300px", width:"350px"}} src="image/books.webp" alt="error" />
                             <div className="img-content">
                                 <h3>books</h3>
-                                <Link to="https://en.wikipedia.org/wiki/Book" className="btn btn-primary" target="blank">learn
-                                    more</Link>
+                                <a href="https://en.wikipedia.org/wiki/Book" className="btn btn-primary" target="blank">learn
+                                    more</a>
                             </div>
                         </div>
                     </div>
@@ -49,8 +49,8 @@ const Stationery = (props) => {
                             <img style={{height: "300px", width:"350px"}} src="image/writing.jpeg" alt="error" />
                             <div className="img-content">
                                 <h3>writing materials</h3>
-                                <Link to="https://en.wikipedia.org/wiki/Writing_implement" className="btn btn-primary" target="blank">learn
-                                    more</Link>
+                                <a href="https://en.wikipedia.org/wiki/Writing_implement" className="btn btn-primary" target="blank">learn
+                                    more</a>
                             </div>
                         </div>
                     </div>
@@ -59,8 +59,8 @@ const Stationery = (props) => {
                             <img style={{height: "300px", width:"350px"}} src="image/other.jpeg" alt="error" />
                             <div className="img-content">
                                 <h3>Other products</h3>
-                                <Link to="https://en.wikipedia.org/wiki/Stationery" className="btn btn-primary" target="blank">learn
-                                    more</Link>
+                                <a href="https://en.wikipedia.org/wiki/Stationery" className="btn btn-primary" target="blank">learn
+                                    more</a>
                             </div>
                         </div>
                     </div>
@@ -203,8 +203,8 @@ const Stationery = (props) => {
                 <div className="container">
                     <p className="copyright-text">Copyright &copy; 2022 All Rights Reserved
                         <br />
-                        <img src="image/insta.jpg" alt='l' className="social" /><img src="image/twitter.png" alt='l' className="social" /><img src="image/linkdin.png" alt='l' className="social" />
-                        <br /><Link>Privacy Policy </Link><Link>|</Link><Link> Terms of Use</Link>
+                        <img src="image/insta.jpg" alt='l' className="social" /><img src="image/twitter.png" alt='l' className="social" /><img src="image/adin.png" alt='l' className="social" />
+                        <br /><a>Privacy Policy </a><a>|</a><a> Terms of Use</a>
                     </p>
                 </div>
             </div>
